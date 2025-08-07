@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2023", "DOM"],
+    "jsx": "preserve",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "allowJs": false,
+    "paths": { "@/*": ["./src/*"] },
+    "types": ["stripe-event-types"]
+  },
+  "include": ["next-env.d.ts", "src/**/*.ts", "src/**/*.tsx", "supabase/functions/**/*.ts"]
+}

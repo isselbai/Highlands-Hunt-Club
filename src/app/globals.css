@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* quick base */
+:root { color-scheme: light; }
+body { @apply bg-brand-cream text-gray-900; }
+
+/* Linen-ish background */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(transparent 1px, rgba(0,0,0,0.02) 1px),
+    radial-gradient(transparent 1px, rgba(0,0,0,0.02) 1px);
+  background-size: 12px 12px, 8px 8px;
+  background-position: 0 0, 4px 4px;
+}

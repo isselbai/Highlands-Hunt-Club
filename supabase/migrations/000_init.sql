@@ -1,0 +1,2 @@
+-- Paste the full schema we provided earlier (enums, tables, indexes, RLS, views, RPC get_available_slots).
+-- For brevity here, keep your previous complete file content.

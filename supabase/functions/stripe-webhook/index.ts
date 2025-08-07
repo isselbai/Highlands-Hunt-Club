@@ -1,0 +1,1 @@
+// You can use Next API route instead; this placeholder exists for parity.
